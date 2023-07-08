@@ -20,6 +20,11 @@ header nav {
     font-size: 25px;
 }
 
+a {
+    color: #65c0c0;
+    text-decoration: none;
+    font-style:
+}
 
 header nav ul li {
     display: inline-block;
@@ -27,7 +32,7 @@ header nav ul li {
 }
 
 .header-name {
-    background-color: rgb(101, 192, 192);
+    background-color: #65c0c0;
     height: 55px;
     padding-right: 10px;
 }
