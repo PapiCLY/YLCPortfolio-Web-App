@@ -76,6 +76,10 @@ section img {
   /* image under header and subtitle end */
 
   /* Main section, right side of page */
+main {
+    display: inline-block;
+}
+
   .about-me p {
     padding: 40px 80px
   }
@@ -86,5 +90,20 @@ section img {
     font-size: 35px;
     padding: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 100px;
+    width: 120px;
+    position: relative;
+    bottom: 60px;
+    text-align: end;
+  }
+
+  .vr {
+    border-right: 5px solid black;
+    margin-right: -15%;
+    padding-right: 10px;
+    height: 150px;
+    display: inline-block;
+  }
+
+  .h3 {
+    margin-right: -13px;
   }
