@@ -85,7 +85,7 @@ main {
   }
 
   /* Aside */
-  .am {
+  .abt-me {
     float: left;
     font-size: 35px;
     padding: 50px;
@@ -94,9 +94,10 @@ main {
     position: relative;
     bottom: 60px;
     text-align: end;
+    margin-left: 5%;
   }
 
-  .vr {
+  .h3-abt-me {
     border-right: 5px solid black;
     margin-right: -15%;
     padding-right: 10px;
