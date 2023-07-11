@@ -2,15 +2,54 @@
 /* Header and Nav */
 header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    background-color: #00008b;
+    color: white;
+    padding: 2% 5%;
+    
+}
+
+.link-style {
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.header-links a:hover {
+    /* text-decoration: underline; */
+    color: white;
+    border-bottom: 10px solid white;
+    position: absolute
+}
+.header-links {
+    flex: 1;
+}
+
+.header-links ul {
+    display: flex;
+    justify-content: end;
+}
+
+.header-links ul li {
+    display: flex;
+    justify-content: center;
+    min-width: 100px;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: right;
 }
 
 
 /* Header and Nav End */
 
 /* Image under header and subtitle */
+ .wire-frame-image {
+    height: 200px;
+    width: 100%;
 
+ }
   /* image under header and subtitle end */
 
   /* Main section, right side of page */
