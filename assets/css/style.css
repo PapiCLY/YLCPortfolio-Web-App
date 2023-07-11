@@ -1,110 +1,20 @@
-body {
-    margin: auto;
-}
+
 /* Header and Nav */
 header {
-    /* padding: 1px; */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #184b64;
-    color: #ffffff;
-    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-header h1 {
-    display: inline-block;
-    font-size: 48px;
-    padding-left: 50px;
-    color: #184b64;;
-}
 
-header nav {
-    padding-top: 25px;
-    margin-right: 80px;
-    float: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-}
-
-a {
-    color: #65c0c0;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 10px;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-.header-name {
-    background-color: #65c0c0;
-    height: 55px;
-    padding-right: 10px;
-}
 /* Header and Nav End */
 
 /* Image under header and subtitle */
-.subtitle-image {
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-  }
-  
-section img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
 
-  .subtitle {
-    background: #65c0c0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: #184b64;
-    width: 790px;
-    font-weight: 550;
-    position: absolute;
-    left: 54%;
-    bottom: 70%;
-    padding: 5px;
-  }
   /* image under header and subtitle end */
 
   /* Main section, right side of page */
-main {
-    display: inline-block;
-}
 
-  .about-me p {
-    padding: 40px 80px
-  }
+  /* About me */
 
-  /* Aside */
-  .abt-me {
-    float: left;
-    font-size: 35px;
-    padding: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 120px;
-    position: relative;
-    bottom: 60px;
-    text-align: end;
-    margin-left: 5%;
-  }
 
-  .h3-abt-me {
-    border-right: 5px solid black;
-    margin-right: -15%;
-    padding-right: 10px;
-    height: 150px;
-    display: inline-block;
-  }
-
-  .h3 {
-    margin-right: -13px;
-  }
