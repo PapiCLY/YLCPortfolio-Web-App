@@ -54,6 +54,27 @@ body {
     margin: 0;
   }
 
+  .wire-image {
+    position: relative;
+  }
+  
+  .top-image {
+    display: block;
+  }
+  
+  figcaption {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background-color: darkgray;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  .caption {
+    color: black;
+  }
 
 
 
