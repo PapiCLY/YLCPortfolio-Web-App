@@ -34,7 +34,6 @@ body {
 
 .link-style:hover {
     color: black;
-    text-decoration: underline;
 }
 /* Header and Nav End */
 
@@ -112,7 +111,7 @@ p {
 
  .my-wk {
     border-right: solid black 3px;
-    height: 520px;
+    height: 750px;
     padding: 5px;
 }
 
@@ -130,6 +129,10 @@ p {
     height: 100px;
     margin-bottom: 15px;margin-top: 5px;
     padding: 100px;
+}
+
+.top-box:hover, .box1:hover, .box2:hover, .box3:hover, .box4:hover {
+    opacity: 0.7;
 }
 
 .top-box, .box1, .box2, .box3, .box4 {
@@ -156,3 +159,61 @@ p {
     width: 1014px;
     height: 100px;
 }
+
+.box-fig1 {
+    position: absolute;
+    bottom: 220px;
+    right: 466px;
+    background-color: darkgray;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  .box-fig2 {
+    position: absolute;
+    bottom: -2px;
+    right: 463px;
+    background-color: darkgray;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  .box-fig3 {
+    position: absolute;
+    bottom: -215px;
+    right: 463px;
+    background-color: darkgray;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  .box-fig4 {
+    position: absolute;
+    bottom: -215px;
+    right: 1080px;
+    background-color: darkgray;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  .box-fig5 {
+    position: absolute;
+    bottom: -2px;
+    right: 1080px;
+    background-color: darkgray;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  /* My work end */
+
