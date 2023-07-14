@@ -1,6 +1,5 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(224, 240, 245)
 }
 
 
@@ -95,10 +94,6 @@ body {
     padding-top: 20px;
 }
 
-.about-me-paragraph {
-
-}
-
 h2 {
     border-right: solid black 3px;
     height: 55px;
@@ -110,4 +105,54 @@ p {
     padding: 20px;
     font-size: 20px;
     width: 80%;
+}
+ /* About me end*/
+
+ /* My work */
+
+ .my-wk {
+    border-right: solid black 3px;
+    height: 520px;
+    padding: 5px;
+}
+
+.work-grid {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    padding: 20px;
+}
+
+.top-box {
+    border-style: solid;
+    border-color: darkgray;
+    width: 1014px;
+    height: 100px;
+    margin-bottom: 15px;margin-top: 5px;
+    padding: 100px;
+}
+
+.top-box, .box1, .box2, .box3, .box4 {
+        border-style: solid;
+        border-color: darkgray;
+        background-color: rgb(235, 241, 243);
+}
+
+.box1, .box2, .box3, .box4 {
+    width: 600px;
+    height: 200px;
+}
+
+.box2, .box1 {
+    margin-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.box3, .box1 {
+    margin-right: 10px;
+}
+
+.top-box-pic {
+    width: 1014px;
+    height: 100px;
 }
