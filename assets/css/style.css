@@ -75,13 +75,39 @@ body {
   .caption {
     color: black;
   }
+/* Image under header and subtitle End */
 
 
-
-/* image under header and subtitle end */
-
-  /* Main section, right side of page */
+/* Main section, right side of page */
 
   /* About me */
+.about-me-section {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    margin-top: 10px;
+}
 
+.about-me {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 
+.about-me-paragraph {
+
+}
+
+h2 {
+    border-right: solid black 3px;
+    height: 55px;
+    padding: 5px;
+}
+
+p {
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+    width: 80%;
+}
