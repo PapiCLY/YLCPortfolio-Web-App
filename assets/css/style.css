@@ -264,3 +264,10 @@ p {
  .github:hover, .insta:hover, .fb:hover {
     color: lightblue;
 }
+
+
+@media screen and (max-width: 600px) {
+  .top-image {
+      height: 150px;
+  }
+}
