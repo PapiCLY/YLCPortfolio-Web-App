@@ -179,7 +179,7 @@ p {
     color: rgb(255, 255, 255);
     padding: 10px;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 20px;
   }
 
   .box-fig3 {
@@ -190,7 +190,7 @@ p {
     color: rgb(255, 255, 255);
     padding: 10px;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 20px;
   }
 
   .box-fig4 {
@@ -201,7 +201,7 @@ p {
     color: rgb(255, 255, 255);
     padding: 10px;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 20px;
   }
 
   .box-fig5 {
@@ -212,7 +212,33 @@ p {
     color: rgb(255, 255, 255);
     padding: 10px;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 20px;
+  }
+
+  /*my work images*/
+  .box1{
+    overflow: hidden;
+  }
+
+  .box1 img{
+    width: 100%;
+    height: auto;
+  }
+
+  .top-box{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 1215px;
+    height: 300px;
+  }
+
+  .top-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   /* My work end */
