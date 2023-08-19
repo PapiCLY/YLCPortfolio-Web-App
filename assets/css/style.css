@@ -30,13 +30,13 @@ body {
 
 .link-style {
     text-decoration: none;
-    color: white;
+    color: black;
     margin-right: 10px;
     transition: color 0.3s, transform 0.3s;
 }
 
 .link-style:hover{
- color: black;
+ color: lightblue;
  transform: scale(1.1);
 }
 
