@@ -30,9 +30,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following shows the web application's appearance and functionality:
 
+
 ![Alt text](assets/images/web-application-portfolio.png)
-
-
 ## Link to Github Pages
 
-https://papicly.github.io/YLCPortfolio-Web-App/ 
+https://papicly.github.io/YLCPortfolio-Web-App/  
