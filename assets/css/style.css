@@ -37,7 +37,7 @@ body {
 
 .link-style:hover{
  color: lightblue;
- transform: scale(1.1);
+ transform: scale(1);
 }
 
 
@@ -292,7 +292,7 @@ p {
 }
  .contact-me:hover{
     color: lightblue;
-    transform: scale(1.1);
+    transform: scale(1);
 }
 
 
