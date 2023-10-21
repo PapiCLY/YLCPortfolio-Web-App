@@ -338,6 +338,7 @@ p {
   }
   .work-grid{
     width: 100px;
+    margin-left: 100px;
   }
   .box-fig1, .box-fig2, .box-fig3, .box-fig4, .box-fig5{
     display: none;
@@ -356,6 +357,14 @@ p {
   }
   .contact-area{
     display: block;
+    text-align: center;
+    margin-left: 250px;
+  }
+  .my-wk{
+    height: 100%;
+  }
+  h2{
+    height: 100%;
   }
 }
 
