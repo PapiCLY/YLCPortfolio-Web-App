@@ -9,9 +9,8 @@ GIVEN I need to sample a potential employee's previous work WHEN I load their po
 
 ## Mock-Up
 
-The following image shows the web application's appearance and functionality:
-![Alt text](assets/images/web-application-portfolio.png)
-
+The following animation shows the web application's appearance and functionality:
+![Alt text](assets/images/port_animation.gif)
 
 
 ## Github Pages link
